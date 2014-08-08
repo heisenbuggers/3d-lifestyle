@@ -13,4 +13,9 @@
 		else element.currentTime += 0.05;
 		return this;
 	};
+	$.fn.selectImage = function(gamma) {
+		var norm = parseInt(gamma);
+		this.find(".img").hide();
+		this.find(".img:eq("+ parseInt(norm) +")").show();
+	};
 })(jQuery);

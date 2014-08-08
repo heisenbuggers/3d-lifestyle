@@ -21,3 +21,11 @@ body {
 	margin: 10px auto;
 	background: #FFF;
 }
+
+.images .img {
+	display:none ;
+}
+
+.images .active {
+	display: block;
+}
