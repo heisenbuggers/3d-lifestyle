@@ -26,7 +26,7 @@ body {
 }
 
 .images .img img {
-	width: 360px;
+	width: 100%;
 }
 
 .images .active {
