@@ -53,7 +53,8 @@ gruntConfig.push({
     js: {
       src: ['bower_components/jquery/dist/jquery.min.js',
       		'public/js/accelerometer.js',
-      		'public/js/seekvideo.js'],
+      		'public/js/seekvideo.js',
+      		'public/js/kickstart.js'],
       dest: 'build/js/3dlifestyle.js'
     }
   }
