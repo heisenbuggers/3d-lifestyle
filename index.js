@@ -16,8 +16,7 @@ app.set("view engine", "ejs");
 app.use(bodyParser());
 app.use(methodOverride());
 
-app.use(express.static("./public"));
-app.use(express.static("./bower_components"));
+app.use(express.static("./build"));
 
 app.get('/video', routes.video);
 
