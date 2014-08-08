@@ -11,5 +11,12 @@
     "lifestyle"
   ],
   "author": "Boopathi Rajaa",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^1.0.0",
+    "express": "^4.8.2",
+    "body-parser": "^1.6.2",
+    "serve-favicon": "^2.0.1",
+    "method-override": "^2.1.2"
+  }
 }
