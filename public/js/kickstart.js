@@ -12,7 +12,7 @@ $(function() {
 		$video.seekRight();
 	});
 	$(document).bind('keydown', function(e){
-		if(e.which === 37) $video.stop().seekLeft();
-		if(e.which === 39) $video.stop().seekRight();
+		if(e.which === 37) $video.stop().seekRight();
+		if(e.which === 39) $video.stop().seekLeft();
 	});
 });
