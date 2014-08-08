@@ -17,6 +17,10 @@ body {
 	background: #FFF;
 }
 
+.images {
+	text-align: center;
+}
+
 .images .img {
 	display:none ;
 }
