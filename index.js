@@ -18,7 +18,8 @@ app.use(methodOverride());
 
 app.use(express.static("./build"));
 
-app.get('/video', routes.video);
+app.get('/demo', routes.video);
+app.get('/demo2', routes.video2);
 
 var server = http.createServer(app);
 
