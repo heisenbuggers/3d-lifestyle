@@ -6,13 +6,8 @@ body {
 	overflow: hidden;
 }
 
-.mw-view-video {
-	text-align: center;
-	width: 140%;
-	margin-left: -15%;
-}
-
 .controls {
+	display:none;
 	text-align: center;
 }
 .controls .left, .controls .right {
@@ -24,6 +19,10 @@ body {
 
 .images .img {
 	display:none ;
+}
+
+.images .img img {
+	width: 360px;
 }
 
 .images .active {
