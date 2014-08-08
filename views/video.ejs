@@ -3,8 +3,13 @@
 	<link href="css/3dlifestyle.min.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
+	<div class="mw-view-3d">
+		<% for(var i=0;i<src.length;i++) { %>
+			<img src="{src[i]}" />
+		<% } %>
+	</div>
 	<div class="overflow-hidden">
-		<video class="mw-view-video" src="<%= src %>"></video>
+		<video class="mw-view-video" src=""></video>
 	</div>
 	<div class="controls">
 		<a href="#" class="left"><div><</div></a>
