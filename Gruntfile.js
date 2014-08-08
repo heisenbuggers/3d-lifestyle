@@ -8,7 +8,11 @@ gruntConfig.push({
   express: {
     //files is not used by express
     //Defining it here so that others can use it in the name of express
-    files: ['index.js', 'routes/*.js']
+    files: ['index.js', 'routes/*.js'],
+    options: {
+      script: "index.js",
+      port: 8082
+    }
   }
 });
 
@@ -90,7 +94,7 @@ gruntConfig.push({
     },
     express: {
       files: ['<%= express.files %>'],
-      tasks: ['jshint:express', 'express:dev'],
+      tasks: ['jshint:express', 'express'],
       options: { spawn: false }
     },
     cssmin: {
