@@ -4,8 +4,7 @@
   "description": "3d lifestyle images",
   "main": "index.js",
   "scripts": {
-    "test": "npm test",
-    "install": "bower install"
+    "test": "npm test"
   },
   "keywords": [
     "3d",
