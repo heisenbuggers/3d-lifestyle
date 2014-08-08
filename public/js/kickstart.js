@@ -1,8 +1,18 @@
+
 $(function() {
 	var $video = $(".mw-view-video"),
 		left = $(".controls .left"),
 		right = $(".controls .right");
 	var touchClickFlag = false;
+	window.tilt = function tilt(beta, gamma){
+		var rightSide = checkSide(gamma);
+		if(rightSide){
+			$video.stop().seekLeft();
+		}else{
+			$video.stop().seekRight();
+		}
+	}
+
 	left.bind("click", function(e) {
 		e.preventDefault();
 		$video.seekLeft();

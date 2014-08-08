@@ -19,15 +19,6 @@ function checkForEvents() {
 	}
 }
 
-function tilt(beta, gamma){
-	var rightSide = checkSide(gamma);
-	if(rightSide){
-		
-	}else{
-		
-	}
-}
-
 function checkSide(gamma){
 	var value = parseInt(gamma,10);
 	if(value){
