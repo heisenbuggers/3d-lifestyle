@@ -3,12 +3,6 @@ var fs = require('fs');
 var video = function(req, res) {
 	res.render('video', {
 		src: [
-'https://dl.dropboxusercontent.com/spa/vq1uo4gkfwxw7wc/3d-lifestyle/public/images1/00008.jpg',
-'https://dl.dropboxusercontent.com/spa/vq1uo4gkfwxw7wc/3d-lifestyle/public/images1/00009.jpg',
-'https://dl.dropboxusercontent.com/spa/vq1uo4gkfwxw7wc/3d-lifestyle/public/images1/00010.jpg',
-'https://dl.dropboxusercontent.com/spa/vq1uo4gkfwxw7wc/3d-lifestyle/public/images1/00011.jpg',
-'https://dl.dropboxusercontent.com/spa/vq1uo4gkfwxw7wc/3d-lifestyle/public/images1/00012.jpg',
-'https://dl.dropboxusercontent.com/spa/vq1uo4gkfwxw7wc/3d-lifestyle/public/images1/00013.jpg',
 'https://dl.dropboxusercontent.com/spa/vq1uo4gkfwxw7wc/3d-lifestyle/public/images1/00014.jpg',
 'https://dl.dropboxusercontent.com/spa/vq1uo4gkfwxw7wc/3d-lifestyle/public/images1/00015.jpg',
 'https://dl.dropboxusercontent.com/spa/vq1uo4gkfwxw7wc/3d-lifestyle/public/images1/00016.jpg',
@@ -82,8 +76,29 @@ var video = function(req, res) {
 'https://dl.dropboxusercontent.com/spa/vq1uo4gkfwxw7wc/3d-lifestyle/public/images1/00084.jpg',
 'https://dl.dropboxusercontent.com/spa/vq1uo4gkfwxw7wc/3d-lifestyle/public/images1/00085.jpg',
 'https://dl.dropboxusercontent.com/spa/vq1uo4gkfwxw7wc/3d-lifestyle/public/images1/00086.jpg',
-'https://dl.dropboxusercontent.com/spa/vq1uo4gkfwxw7wc/3d-lifestyle/public/images1/00087.jpg'
+'https://dl.dropboxusercontent.com/spa/vq1uo4gkfwxw7wc/3d-lifestyle/public/images1/00087.jpg',
+'https://dl.dropboxusercontent.com/spa/vq1uo4gkfwxw7wc/3d-lifestyle/public/images1/00088.jpg',
+'https://dl.dropboxusercontent.com/spa/vq1uo4gkfwxw7wc/3d-lifestyle/public/images1/00089.jpg',
+'https://dl.dropboxusercontent.com/spa/vq1uo4gkfwxw7wc/3d-lifestyle/public/images1/00090.jpg',
+'https://dl.dropboxusercontent.com/spa/vq1uo4gkfwxw7wc/3d-lifestyle/public/images1/00091.jpg',
+'https://dl.dropboxusercontent.com/spa/vq1uo4gkfwxw7wc/3d-lifestyle/public/images1/00092.jpg',
+'https://dl.dropboxusercontent.com/spa/vq1uo4gkfwxw7wc/3d-lifestyle/public/images1/00093.jpg',
+'https://dl.dropboxusercontent.com/spa/vq1uo4gkfwxw7wc/3d-lifestyle/public/images1/00094.jpg',
+'https://dl.dropboxusercontent.com/spa/vq1uo4gkfwxw7wc/3d-lifestyle/public/images1/00095.jpg',
+'https://dl.dropboxusercontent.com/spa/vq1uo4gkfwxw7wc/3d-lifestyle/public/images1/00096.jpg',
+'https://dl.dropboxusercontent.com/spa/vq1uo4gkfwxw7wc/3d-lifestyle/public/images1/00097.jpg',
+'https://dl.dropboxusercontent.com/spa/vq1uo4gkfwxw7wc/3d-lifestyle/public/images1/00098.jpg',
+'https://dl.dropboxusercontent.com/spa/vq1uo4gkfwxw7wc/3d-lifestyle/public/images1/00099.jpg',
+'https://dl.dropboxusercontent.com/spa/vq1uo4gkfwxw7wc/3d-lifestyle/public/images1/00100.jpg',
+'https://dl.dropboxusercontent.com/spa/vq1uo4gkfwxw7wc/3d-lifestyle/public/images1/00101.jpg',
+'https://dl.dropboxusercontent.com/spa/vq1uo4gkfwxw7wc/3d-lifestyle/public/images1/00102.jpg',
+'https://dl.dropboxusercontent.com/spa/vq1uo4gkfwxw7wc/3d-lifestyle/public/images1/00103.jpg',
+'https://dl.dropboxusercontent.com/spa/vq1uo4gkfwxw7wc/3d-lifestyle/public/images1/00104.jpg',
+'https://dl.dropboxusercontent.com/spa/vq1uo4gkfwxw7wc/3d-lifestyle/public/images1/00105.jpg',
+'https://dl.dropboxusercontent.com/spa/vq1uo4gkfwxw7wc/3d-lifestyle/public/images1/00106.jpg',
+'https://dl.dropboxusercontent.com/spa/vq1uo4gkfwxw7wc/3d-lifestyle/public/images1/00107.jpg'
 ]
+
 
 	});
 };
