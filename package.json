@@ -1,0 +1,15 @@
+{
+  "name": "3d-lifestyle",
+  "version": "0.0.1",
+  "description": "3d lifestyle images",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "keywords": [
+    "3d",
+    "lifestyle"
+  ],
+  "author": "Boopathi Rajaa",
+  "license": "ISC"
+}

@@ -1,0 +1,16 @@
+{
+  "name": "3d-lifestyle",
+  "version": "0.0.1",
+  "authors": [
+    "Boopathi Rajaa <me@boopathi.in>"
+  ],
+  "main": "index.js",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
